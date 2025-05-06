@@ -1,9 +1,89 @@
---- 
+---
 layout: default
 title: Home
 ---
 
-    <h1>Nama: Wildanun Hasanah</h1>
-    <p> Deskripsi Diri: Saya berasal dari Bayu, sekarang berkuliah di Politeknik Negeri Lhokseumawe sebagai Mahasiswa Jurusan TIK.</p>
-    
-    <button onclick="myFunction() "> Jangan klik ya!</button>
+<div class="container">
+  <h1>👋👋👋</h1>
+
+  <section class="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Hai! Nama saya <strong>Wildanun Hasanah</strong>, lahir pada <strong>17 Juli 2006</strong>, dan saat ini saya sedang menempuh pendidikan di bidang Teknologi Informasi. Sebagai anak pertama dari empat bersaudara, saya terbiasa dengan tanggung jawab dan peran sebagai teladan.
+    </p>
+
+    <p>
+      Dunia teknologi menarik perhatian saya karena saya percaya bahwa masa depan ada di tangan para inovator digital. Bagi saya, belajar itu proses seumur hidup—dan saya menikmati setiap langkahnya.
+    </p>
+
+    <blockquote>
+      “Saya percaya bahwa proses kecil yang dilakukan dengan konsisten akan membawa saya ke hasil besar di waktu yang tepat.”
+    </blockquote>
+  </section>
+
+  <section class="fun">
+    <button onclick="showAlert()">Jangan klik ya!</button>
+  </section>
+</div>
+
+<script>
+  function showAlert() {
+    alert("kan sudah di bilang jangan diklik");
+  }
+</script>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2d3e50;
+  }
+
+  h2 {
+    color: #3e4a61;
+    margin-top: 30px;
+  }
+
+  p {
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  blockquote {
+    background: #f0f6ff;
+    border-left: 6px solid #4a90e2;
+    margin: 25px 0;
+    padding: 15px 20px;
+    font-style: italic;
+    color: #333;
+  }
+
+  button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background: #3b78c1;
+  }
+
+  .fun {
+    text-align: center;
+  }
+</style>

@@ -1,14 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> {{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl  }}/assets/css/style.css">
  
     <!--Java script-->
-    <script src="{{ site.baseur1 }}/assets/cssstyle.js"></script>
+    <script src="{{ site.baseur1 }}/assets/js/script.js"></script>
 
     <!-- plugins -->
      {% feed_meta %}
@@ -17,6 +15,6 @@
 </head> 
 <body>
     {% include navigation.html %}
-    {{content}}
+    {{ content }}
 </body>
 </html>
