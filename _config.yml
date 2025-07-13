@@ -1,3 +1,10 @@
+title: Wildanun Hasanah
+email: wildanunhasanah@gmail.com
+description: > # this means to ignore newlines until "baseur1:"
+ A personal blog by Wildanun Hasanah, a student at Politeknik Negeri Lhoksemawe.
+ This blog is built using jekyll and hosted on GitHub Pages.
+ The Content is primarily in Indonesia, but some posts may be in English
+
 url: "https://wildanunhasanah.github.io"
 
 plugins:
